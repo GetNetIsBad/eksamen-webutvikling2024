@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eksamen Webdesign 2024</title>
+</head>
+<body>
+    
+    <header>
+        <input class="search-bar" type="text" placeholder="søk her">
+        <a href="index.html"><img class="search-icon" src="ikoner/search.png" alt="søk"></a>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="index.html#popular-products">Produkter</a></li>
+                <li><a href="index.html" class="logo">Logo</a></li>
+                <li><a href="index.html#popular-categories">Kategorier</a></li>
+                <li><a href="#footer">Kontakt oss</a></li>
+            </ul>
+        </nav>
+            
+        <ul class="header-icons">
+            <li><a href="#"><img src="ikoner/profil.png" alt="profil"></a></li>
+            <li><a href="#"><img src="ikoner/heart.png" alt="favourites"></a></li>
+            <li><a href="checkout.html"><img src="ikoner/cart.png" alt="handlevogn"></a></li>
+        </ul>
+    </header>
+
+    <main>
+        <h1>Kasse</h1>
+        <h2>1. SHOPPINGBAGGEN DIN</h2>
+        <section class="product">
+            <article>
+                <img src="https://picsum.photos/id/39/200" alt="Product 1">
+                <h3>Product Name</h3>
+                <p>Kr 1999</p>
+                <p>Farge: svart</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/id/39/200" alt="Product 1">
+                <h3>Product Name</h3>
+                <p>Kr 1999</p>
+                <p>Farge: svart</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/id/39/200" alt="Product 1">
+                <h3>Product Name</h3>
+                <p>Kr 1999</p>
+                <p>Farge: svart</p>
+            </article>
+
+        </section>
+        <section class="opplysninger">
+            <h2>2. DINE OPPLYSNINGER</h2>
+            <p>Leveringsadresse</p>
+            <form>
+                <input type="text" placeholder="Fornavn*">
+                <input type="text" placeholder="Etternavn*">
+                <input type="text" placeholder="Gateadresse*">
+                <input type="number" placeholder="Postnummer*">
+                <input type="text" placeholder="Poststed*">
+            </form>
+            <button>Lagre</button>
+            <a href="#">Avbryt</a>
+        </section>
+        <section class="levering">
+            <h2>3. LEVERING</h2>
+            <h3>LEVERINGSVALG</h3>
+            <form>
+                <input type="radio" id="ekspress" name="levering" value="ekspress">
+                <label for="ekspress">Ekspress Hjemlevering</label><br>
+                <input type="radio" id="ekspress-utlevering" name="levering" value="ekspress-utlevering">
+                <label for="ekspress-utlevering">Ekspress Pakke til utleveringssted</label><br>
+                <input type="radio" id="standard" name="levering" value="standard">
+                <label for="standard">Standard Hjemlevering </label><br>
+            </form>
+        </section>
+        <section class="betaling">
+            <h2>4. BETALING</h2>
+            <h3>BETAL MED KORT</h3>
+            <form>
+                <label for="kortnummer">kortnummer</label><br>
+                <input type="number" id="kortnummer" placeholder="1234 1234 **** 1234"><br>
+                <label for="utløpsdato">Utløpsdato</label><br>
+                <input type="date" id="utløpsdato"><br>
+                <label for="cvv">CVC/CVV</label><br>
+                <input type="password" id="cvv" placeholder="CVC/CVV"><br>
+            </form>
+        </section>
+        <section class="finish-purchase">
+            <p>Å betale inkl. mva.</p>
+            <p>5 997 kr</p>
+            <button>Fullfør kjøp</button>
+            <p class="disclaimer">Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet detsom det foreligger uriktige eller ufullstendige opplysninger.</p><br>
+            <input type="checkbox" id="newsletter"><label for="newsletter">Ja takk! Send nyhetsbrev til meg</label><br>
+            <input type="checkbox" id="smsnews"><label for="smsnews">Jeg ønsker å motta tekstmeldinger med tilbud og nyheter.</label>
+        </section>
+
+        <hr>
+
+        <footer>
+            <section class="footer-contact" id="footer">
+                <a href="#" class="logo-footer">Logo</a>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                <h3 class="contact">Kontakt</h3>  
+                <address class="footer-contactinfo">      
+                    <ul>
+                        <li><img src="ikoner/location.png" alt=""><p class="bold">Adresse:</p> B R A Veien 8, 1757 Halden</li>
+                        <li><img src="ikoner/phone.png" alt=""><p class="bold">Telefon:</p> +47 47269249</li>
+                        <li><img src="ikoner/mail.png" alt=""><p class="bold">E-post:</p> jonathbr@hiof.no</li>
+                        <li><img src="ikoner/clock.png" alt=""><p class="bold">Åpningstider:</p> Stenger 15:00</li>
+                    </ul>
+                </address>
+            </section>
+            <section class="shortcuts">
+                <h3>Snarveier</h3>
+                <ul class="shortcuts-nav">
+                    <li><a href="index.html#popular-products">Produkter</a></li>
+                    <li><a href="index.html#popular-categories">Kategorier</a></li>
+                    <li><a href="#footer">Kontakt oss</a></li>
+                </ul>
+            </section>
+            <section class="social-media">
+                <h3>Sosiale Medier</h3>
+                <ul>
+                    <li><a href="index.html"><img src="ikoner/instagram-brands-solid.svg" alt="instagram"></li></a>
+                    <li><a href="index.html"><img src="ikoner/facebook-brands-solid.svg" alt="facebook"></li></a>
+                    <li><a href="index.html"><img src="ikoner/linkedin-brands-solid.svg" alt="linkedin"></li></a>
+                    <li><a href="index.html"><img src="ikoner/pinterest-brands-solid.svg" alt="pinterest"></li></a>
+                </ul>
+            </section>
+        </footer>
+
+    </main>
+</body>    
+
+</html>
