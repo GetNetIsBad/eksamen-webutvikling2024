@@ -66,7 +66,7 @@ body {
 
 .banner {
     margin-top: 30px;
-    padding: 40px;
+    padding: 30px;
     text-align: right;
     align-self: center;
     background-color: rgb(230, 230, 230);
@@ -77,17 +77,16 @@ body {
 
     p {
         padding-bottom: 15px;
-        font-size: 12px;
+        font-size: 100%;
     }
 
     a {
-        font-size: 11px;
+        font-size: 80%;
         text-decoration: none;
         color: black;
         font-weight: 600;
         background-color: white;
-        width: 400px;
-        padding: 10px;
+        padding: 12px;
         
     }
 }
@@ -97,7 +96,7 @@ body {
     margin-top: 60px;
 
     h2{
-        font-size: 22px;
+        font-size: 100%;
     }
 }
 
@@ -131,7 +130,7 @@ body {
 
 .products {
     margin-top: 60px;
-    ;
+    
     img {
         width: 100%;
         height: 100%;
@@ -167,11 +166,11 @@ body {
 
     h2 {
         text-align: left;
-        font-size: 20px;
+        font-size: 100%;
     }
 
     p{
-        font-size: 13px;
+        font-size: 100%;
         text-align: left;
         margin-bottom: 50px;
     }
@@ -364,7 +363,7 @@ hr {
 .levering{
 
     h2 {
-        font-size: 30px;
+        font-size: 190%;
     }
     
     
@@ -378,7 +377,7 @@ hr {
 
 .levering form label {
     font-weight: 550;
-    font-size: 13px;
+    font-size: 80%;
 }
 
 .betaling{
@@ -388,7 +387,7 @@ hr {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 180%;
     }
 
     form {
@@ -404,7 +403,7 @@ hr {
     margin-top: 50px;
 
     label{
-        font-size: 12px;
+        font-size: 100%;
     }
 
 
@@ -435,9 +434,8 @@ hr {
         
         li {
             display: inline;
-            font-size: 18px;
             font-weight: 600;
-            font-size: 13px;
+            font-size: 80%;
 
             a {
                 color: black;
