@@ -24,26 +24,23 @@ body {
 }
 
 .header-nav {
-    
     margin-top: 10px;
+}
 
-    a {
-        text-decoration: none;
-        color: black;
-    }
+.header-nav a {
+    text-decoration: none;
+    color: black;
+}
 
-    ul{
-        
-        font-size: small ;
-        list-style: none;
-        margin-left: 0;
-        padding-left: 0;
+.header-nav ul {
+    font-size: small;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
 
-        li {
-            padding: 5px 0;
-        }
-        
-    }
+.header-nav ul li {
+    padding: 5px 0;
 }
 
 .logo {
@@ -55,13 +52,11 @@ body {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+}
 
-    li {
-        img{
-            width: 25px;
-            height: 25px;
-        }
-    }
+.header-icons li img {
+    width: 25px;
+    height: 25px;
 }
 
 .banner {
@@ -70,34 +65,32 @@ body {
     text-align: right;
     align-self: center;
     background-color: rgb(230, 230, 230);
+}
 
-    h2{
-        font-size: 20px;
-    }
+.banner h2 {
+    font-size: 20px;
+}
 
-    p {
-        padding-bottom: 15px;
-        font-size: 100%;
-    }
+.banner p {
+    padding-bottom: 15px;
+    font-size: 100%;
+}
 
-    a {
-        font-size: 80%;
-        text-decoration: none;
-        color: black;
-        font-weight: 600;
-        background-color: white;
-        padding: 12px;
-        
-    }
+.banner a {
+    font-size: 80%;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    padding: 12px;
 }
 
 .popular-products-section {
-
     margin-top: 60px;
+}
 
-    h2{
-        font-size: 100%;
-    }
+.popular-products-section h2 {
+    font-size: 100%;
 }
 
 .popular-products-selection {
@@ -105,105 +98,95 @@ body {
 }
 
 .popular-product-direction ul {
-
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+}
 
-    li {
-        
-        margin: 10px;
-        border: 1px solid black;
-        padding: 10px;
-        text-align: center;
-    }
-    
-    a {
-        text-decoration: none;
-        color: black;
-    }
+.popular-product-direction ul li {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.popular-product-direction ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 .products {
     margin-top: 60px;
-    
-    img {
-        width: 100%;
-        height: 100%;
-        margin-top: 20px;
-    }
+}
+
+.products img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
 }
 
 .product {
     margin-top: 60px;
-    
-    h3 {
-        padding: 0;
-        margin: 0;
-    }
+}
 
-    p {
-        padding: 0;
-        margin: 0;
-    }
+.product h3 {
+    padding: 0;
+    margin: 0;
+}
 
-    img {
-        width: 100%;
-        height: 100%;
-        margin-top: 20px;
-    }
+.product p {
+    padding: 0;
+    margin: 0;
+}
+
+.product img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
 }
 
 .categories {
-
     margin-top: 50px;
-
     text-align: center;
-
-    h2 {
-        text-align: left;
-        font-size: 100%;
-    }
-
-    p{
-        font-size: 100%;
-        text-align: left;
-        margin-bottom: 50px;
-    }
-
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        justify-content: center;
-        text-align: center;
-
-        li {
-            font-weight: 600;
-            padding: 100px;
-            border: 1px solid black;
-            margin: 10px;
-
-        }
-        
-        .categories-bigger{
-            padding-top: 200px;
-            padding-bottom: 200px;
-        }
-
-    }
-
 }
 
-.reviews {
-    article {
-        margin: 15px;
-        margin-bottom: 50px;
-    }
+.categories h2 {
+    text-align: left;
+    font-size: 100%;
+}
+
+.categories p {
+    font-size: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.categories ul li {
+    font-weight: 600;
+    padding: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.categories ul li.categories-bigger {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.reviews article {
+    margin: 15px;
+    margin-bottom: 50px;
 }
 
 .logo-footer {
@@ -221,17 +204,14 @@ body {
 
 
 .footer-contactinfo {
-
     margin-top: 50px;
     padding: 0;
-    
+}
 
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
+.footer-contactinfo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .bold {
@@ -242,25 +222,21 @@ body {
     margin-top: 10px;
 }
 
-.footer-contactinfo ul li{
-
+.footer-contactinfo ul li {
     display: flex;
     align-items: center;
-    height:30px ;
+    height: 30px;
     font-style: normal;
+}
 
-    
+.footer-contactinfo ul li p {
+    margin-right: 10px;
+}
 
-    p {
-        margin-right: 10px;
-    }
-
-    img {
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-    }
-
+.footer-contactinfo ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 .contact {
@@ -276,54 +252,43 @@ hr {
 }
 
 .shortcuts {
-
     margin: 0;
     padding: 0;
-
-    h3{
-        font-weight: 500;
-    }
-
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-
-        li {
-
-            padding: 5px;
-
-            a{
-                text-decoration: none;
-                color: black;
-            }
-        }
-    }
 }
 
-.social-media {
+.shortcuts h3 {
+    font-weight: 500;
+}
 
-    h3 {
-        font-weight: 500;
-    }
+.shortcuts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
+.shortcuts ul li {
+    padding: 5px;
+}
 
-    li {
-        img{
-            height: 20px;
-            width: 20px;
-            margin: 20px;
-        }
-    }
+.shortcuts ul li a {
+    text-decoration: none;
+    color: black;
+}
 
+.social-media h3 {
+    font-weight: 500;
+}
 
-    
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+.social-media ul li img{
+    height: 20px;
+    width: 20px;
+    margin: 20px;
 }
 
 .opplysninger {
@@ -360,13 +325,8 @@ hr {
     margin: 1px;
 }
 
-.levering{
-
-    h2 {
-        font-size: 190%;
-    }
-    
-    
+.levering h2 {
+    font-size: 190%;
 }
 
 .levering form input{
@@ -380,45 +340,38 @@ hr {
     font-size: 80%;
 }
 
-.betaling{
+.betaling h3 {
+    margin-bottom: 1px;
+}
 
-    h3{
-        margin-bottom: 1px;
-    }
+.betaling h2 {
+    font-size: 180%;
+}
 
-    h2 {
-        font-size: 180%;
-    }
-
-    form {
-        input{
-            padding: 10px;
-            width: 92%;
-        }
-    }
+.betaling form input {
+    padding: 10px;
+    width: 92%;
 }
 
 .finish-purchase {
-
     margin-top: 50px;
+}
 
-    label{
-        font-size: 100%;
-    }
+.finish-purchase label {
+    font-size: 100%;
+}
 
+.finish-purchase p {
+    margin: 1px;
+}
 
-    p {
-        margin: 1px;
-    }
-
-    button {
-        padding: 20px;
-        background-color: rgb(133, 133, 133);
-        color: white;
-        border-color: rgb(156, 156, 156);
-        margin-top: 3px;
-        margin-bottom: 20px;
-    }
+.finish-purchase button {
+    padding: 20px;
+    background-color: rgb(133, 133, 133);
+    color: white;
+    border-color: rgb(156, 156, 156);
+    margin-top: 3px;
+    margin-bottom: 20px;
 }
 
 .disclaimer {
@@ -426,46 +379,32 @@ hr {
     margin-bottom: 20px;
 }
 
-.breadcrumbs {
-
-    ul {
-        padding: 10px 16px;
-        list-style: none; 
-        
-        li {
-            display: inline;
-            font-weight: 600;
-            font-size: 80%;
-
-            a {
-                color: black;
-                text-decoration: none;
-                font-weight: 500;
-            }
-        }
-
-        li + li:before {
-            padding: 8px;
-            color: black;
-            content: ">\00a0";
-            font-weight: 500;
-        }
-
-        
-    }
-
-
-
+.breadcrumbs ul {
+    padding: 10px 16px;
+    list-style: none;
 }
 
-.selection {
-    img{
-        width: 100%;
-    }
+.breadcrumbs ul li {
+    display: inline;
+    font-weight: 600;
+    font-size: 80%;
+}
 
-    
-    
-    
+.breadcrumbs ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.breadcrumbs ul li + li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+    font-weight: 500;
+}
+
+.selection img {
+    width: 100%;
 }
 
 .merkenavn {
@@ -477,54 +416,34 @@ hr {
         display: flex;
 }
 
-.lignende {
+.lignende img {
+    width: 100%;
+}
 
+.lignende h2 {
+    display: inline-block;
+}
 
-
-    img {
-        width: 100%;
-        
-    }
-
-    h2{
-        display: inline-block;
-    }
-
-    p{
-        display: inline-block;
-        margin-left: 10%;
-        margin-bottom: 60px;
-    }
-
-    
+.lignende p {
+    display: inline-block;
+    margin-left: 10%;
+    margin-bottom: 60px;
 }
 
 @media (min-width: 375px) {
-    
-    .lignende {
-        p{
-            margin-left: 20%;
-        }
+    .lignende p {
+        margin-left: 20%;
     }
-
 }
 
 @media (min-width: 425px) {
-    
-    .lignende {
-        p{
-            margin-left: 30%;
-        }
+    .lignende p {
+        margin-left: 30%;
     }
-
 }
 
 @media (min-width: 768px) {
-    
-    .lignende {
-        p{
-            margin-left: 60%;
-        }
+    .lignende p {
+        margin-left: 60%;
     }
-
 }
